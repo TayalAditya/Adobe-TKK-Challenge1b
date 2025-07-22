@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  pdf-analyzer:
+    build: .
+    container_name: pdf-analyzer
+    volumes:
+      - ./PDFs:/app/PDFs
+      - ./input:/app/input
+      - ./output:/app/output
+    environment:
+      - MODEL_PATH=local_sbert_model
+      - PDF_FOLDER=PDFs
+      - QUERY_JSON=input/query1.json
+      - OUTPUT_FOLDER=output
+      - TOP_K=5
+      - MIN_SECTION_LENGTH=50
+      - MAX_SECTION_LENGTH=2000
