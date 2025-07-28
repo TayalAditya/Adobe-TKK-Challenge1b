@@ -1,5 +1,5 @@
 # Persona-Driven Document Intelligence System
-## Adobe Challenge 1B: "Connect What Matters — For the User Who Matters"
+## Adobe Challenge 1B: "Connect What Matters: For the User Who Matters"
 
 A sophisticated document analysis system that extracts and prioritizes the most relevant sections from PDF collections based on specific personas and their job-to-be-done requirements. Built for the Adobe Challenge 1B with semantic search capabilities and intelligent content ranking.
 
